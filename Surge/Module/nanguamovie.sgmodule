@@ -1,2 +1,6 @@
+#!name=南瓜电影
+#!desc=破解.
+#!system=ios
+
 ^https?://p.doras.api.vcinema.cn/v5.0/user/ url script-response-body https://meetagit.github.io/MeetaRules/Surge/Scripting/cushawmovie.js
 hostname = *.api.vcinema.cn,
