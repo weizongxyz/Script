@@ -1,0 +1,11 @@
+#!name=#网易蜗牛读书VIP
+#!desc=破解
+#!system=ios
+
+[Script]
+^https?://p\.du\.163\.com/readtime/info.json url reject
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body 
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+
+[Mitm]
+hostname = p.du.163.com,
