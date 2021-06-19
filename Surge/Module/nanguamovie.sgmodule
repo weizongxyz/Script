@@ -4,7 +4,9 @@
 
 [Script]
 ^https?://p.doras.api.vcinema.cn/v5.0/user/ url script-response-body 
-https://meetagit.github.io/MeetaRules/Surge/Scripting/cushawmovie.js
+https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/cushawmovie.js
 
 [MITM]
-hostname = *.api.vcinema.cn,
+hostname = *.api.vcinema.cn
+
+^https?://p.doras.api.vcinema.cn/v5.0/user/ url script-response-body https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/cushawmovie.js
