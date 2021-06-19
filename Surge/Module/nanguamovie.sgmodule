@@ -3,8 +3,7 @@
 #!system=ios
 
 [Script]
-^https?://p.doras.api.vcinema.cn/v5.0/user/ url script-response-body 
-https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/cushawmovie.js
+^https?://p.doras.api.vcinema.cn/v5.0/user/ url script-response-body https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/cushawmovie.js
 
 [MITM]
 hostname = *.api.vcinema.cn
